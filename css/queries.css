@@ -1,0 +1,385 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    nav.navbar .navbar-nav .nav-link.navbar-link {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+    }
+
+    .banner-title {
+        font-size: 4.5rem;
+    }    
+
+    .banner-description {
+        font-size: 1.5rem;
+    }
+
+    .button-cv {
+        font-size: 1.4rem;
+    }
+
+    .title,
+    .exp-desc {
+        font-size: 1.4rem;
+    }
+
+    .card-content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .span-project {
+        position: absolute;
+        top: -8%;
+        right: -2.8%;
+        background: #AA367C;
+        padding: 0.6rem;
+        border-bottom-left-radius: 10px;
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 1.7rem;
+        padding-top: 1rem;
+    }
+
+    .card-title-certification {
+        font-size: 1.6rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .button-project {
+        padding: 1rem;
+        font-size: 1.5rem
+    }
+
+    .footer-text {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+    .container-img {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+    }
+
+    .social-icon {
+        display: flex;
+    }
+    .card-content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .card-title-certification {
+        font-size: 1.6rem;
+    }
+
+    .span-project {
+        display: none;
+    }
+
+}
+
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+    .navbar {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .brand-logo {
+        display: none;
+    }
+
+    .social-icon {
+        display: flex;
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+    }
+
+    .left-containers {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .right-containers {
+        left: 0%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .timeline::after,
+    .left-containers-arrow,
+    .right-containers-arrow,
+    .containers img {
+        display: none;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .hl-1,
+    .hl-2 {
+        display: none;
+    }
+
+    .exp-desc {
+        font-size: 1.4rem;
+    }
+
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-container-certifications {
+        align-items: center;
+    }
+
+    .card-title-certification {
+        font-size: 1.6rem;
+    }
+
+    .footer-text {
+        display:block;
+    }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+    .container {
+        padding: 2rem;
+    }
+
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container-content {
+        justify-content: start;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+    }
+
+    .banner-title {
+        font-size: 3.5rem;
+    }
+
+    .banner-description {
+        font-size: 1.7rem;
+    }
+
+    .container-img {
+        display: none;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .sub-heading {
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 1.5rem 3rem 4rem 1.5rem;
+    }
+
+    .containers {
+        padding: 0;
+        width: 100%;
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+    }
+
+    .left-containers {
+        margin-bottom: 1rem;
+    }
+
+    .right-containers {
+        left: 0%;
+        margin-bottom: 1rem;
+    }
+
+    .timeline::after,
+    .left-containers-arrow,
+    .right-containers-arrow,
+    .containers img {
+        display: none;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .hl-1,
+    .hl-2 {
+        display: none;
+    }
+
+    .exp-desc {
+        font-size: 1.4rem;
+        padding: 0 1rem 1rem 3rem
+    }
+
+    .project {
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.7rem;
+    }
+
+    .card-title-certification {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .card-img-top {
+        width: 250px;
+        height: 150px
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-body-crtf {
+        padding: 0.5rem;
+    }
+
+    .card-container-certifications {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .button-project {
+        padding: 1rem;
+        font-size: 1.5rem
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-text {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .social-icon-flex {
+        justify-content: center;
+    }
+
+    ion-icon {
+        font-size: 1.2rem;
+    }
+
+    .flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

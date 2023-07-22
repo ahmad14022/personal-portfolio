@@ -64,9 +64,8 @@ button {
 
 /* REUSABLE CLASS */
 .heading{
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
     /* background-color: blue; */
 }
 

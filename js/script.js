@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const toRotate = ["IT Student", "Front End Enthusiast", "Data Analyst Enthusiast"];
+  const toRotate = ["IT Study Program", "UNISA Jogja"];
   const period = 2000;
   let text = "";
   let loopNum = 0;
@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(type, typingSpeed);
 });
 
-function downloadCV() {
-  var link = document.createElement('a');
-  link.href = 'https://drive.google.com/file/d/1shYjU4IJONx8dFU4PbKndOc88Hgq3pTz/view?usp=sharing';
-  link.download = 'CV_AHMADMUSHAWWIR.pdf';
-  link.click();
-}
+// function downloadCV() {
+//   var link = document.createElement('a');
+//   link.href = 'https://drive.google.com/file/d/1shYjU4IJONx8dFU4PbKndOc88Hgq3pTz/view?usp=sharing';
+//   link.download = 'CV_AHMADMUSHAWWIR.pdf';
+//   link.click();
+// }
 

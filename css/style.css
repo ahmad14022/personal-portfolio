@@ -85,7 +85,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 3rem 1.5rem 3rem;
+    padding: 1rem 3rem 1.5rem 3rem;
 }
 
 /*NAVBRAR*/
@@ -127,7 +127,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 15%;
+    width: 25%;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -214,7 +214,8 @@ span.navbar-text {
 /* BANNER */
 .container-content {
     display: flex;
-    padding: 5rem 4rem;
+    padding: 5rem 1rem 1rem 1rem;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
 }
@@ -627,7 +628,7 @@ span.navbar-text {
 .span-project {
     position: absolute;
     top: -16%;
-    right: -3%;
+    right: -4%;
     background: #AA367C;
     padding: 0.7rem;
     border-bottom-left-radius: 10px;
@@ -718,8 +719,15 @@ span.navbar-text {
     background-repeat: no-repeat;
 }
 
-.footer img {
-    width: 26%;
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-footer img {
+    width: 5rem;
 }
 
 .footer-text {

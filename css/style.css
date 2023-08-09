@@ -63,8 +63,8 @@ button {
 }
 
 /* REUSABLE CLASS */
-.heading{
-    font-size: 3rem;
+.heading {
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
@@ -85,7 +85,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem 1.5rem 3rem;
+    /* padding: 1rem 3rem 1.5rem 3rem; */
 }
 
 /*NAVBRAR*/
@@ -153,6 +153,41 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+/* Styling for submenu */
+.submenu {
+    position: absolute;
+    top: 100%;
+    right: 9%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.submenu ul {
+    list-style: none;
+
+}
+
+.submenu ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu ul li a:hover {
+    color: #007bff;
+}
+
 
 .social-icon-flex {
     display: flex;
@@ -532,34 +567,21 @@ span.navbar-text {
 
 /* PROJECTS SECTION */
 .project {
-    padding: 8rem 0;
+    padding: 2rem 0;
     position: relative;
     background-color: rgb(17, 17, 17);
 }
 
-.option-project {
-    border-radius: 5rem;
-    background: #151515;
-    padding: 1rem;
-    margin: 0 25rem;
-    text-align: center;
-    list-style: none;
+.card-content-project {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    margin-bottom: 5rem;
+    gap: 1rem;
+    /* width: 100%; */
 }
 
-.card-content {
+.card-card-project {
     display: flex;
-    gap: 1.5rem;
-    position: relative;
-    z-index: 1;
-}
-
-.card {
-    display: flex;
-    margin: 0 8rem;
+    margin: 0 4rem;
     border-radius: 1rem;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
     border: 1px solid #AA367C;
@@ -567,26 +589,24 @@ span.navbar-text {
     padding: 2rem;
     position: relative;
     overflow: hidden;
-    /* Mengatur overflow menjadi hidden untuk membatasi ukuran konten */
 }
 
-.card:hover {
+.card-card-project:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.card::before {
+.card-card-project::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 60%;
     background-image: url('../images/color-sharp2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     z-index: -1;
-    /* Menetapkan indeks z lebih rendah untuk latar belakang image */
 }
 
 .card-title {
@@ -594,7 +614,7 @@ span.navbar-text {
     font-weight: 600;
 }
 
-.card-title-certification{
+.card-title-certification {
     color: #FFF;
     list-style-type: none;
     text-decoration: none;
@@ -605,12 +625,12 @@ span.navbar-text {
     margin-bottom: 10px;
 }
 
-.card-title-certification:hover{
+.card-title-certification:hover {
     text-decoration: underline;
 }
 
 .card-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -618,17 +638,27 @@ span.navbar-text {
 .card-body {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .card-img-top {
     border-radius: 5px;
 }
 
+.span-competition {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: #AA367C;
+    padding: 0.7rem;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+}
+
 .span-project {
     position: absolute;
-    top: -16%;
-    right: -4%;
+    top: 0%;
+    right: 0%;
     background: #AA367C;
     padding: 0.7rem;
     border-bottom-left-radius: 10px;
@@ -639,14 +669,17 @@ span.navbar-text {
     text-align: right;
     font-weight: 300;
     border: 1px solid #FFF;
-    padding: 0.6rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 50px;
     color: #FFF;
     align-self: flex-end;
+    cursor: pointer;
+    font-size: 0.8rem;
 }
 
 .button-project:hover {
     background-color: #f7f7f70c;
+    font-weight: 600;
 }
 
 .background-image-right {
@@ -656,6 +689,267 @@ span.navbar-text {
     width: 50%;
     z-index: -1;
     /* Menetapkan indeks z lebih rendah untuk latar belakang image */
+}
+
+/* CREATOR IMGS */
+.creator-container {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.creator-imgs {
+    display: flex;
+}
+
+.creator-imgs img {
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
+    margin-right: -0.7rem;
+    border: 3px solid #4A2FBD;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.creator-name {
+    font-size: 0.8rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* .creator-imgs img:last-child {
+  margin: 0;
+} */
+
+/* PROJECTS STUDENT CARD */
+.card-container {
+    padding: 5rem 1rem;
+}
+
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 5.5rem;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border: 0.5px solid rgba(255, 255, 255, 0.76);
+}
+
+.button-project-2 {
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 300;
+    border: 1px solid #FFF;
+    padding: 0.6rem 9rem;
+    margin: 1rem;
+    border-radius: 50px;
+    color: #FFF;
+    align-self: center;
+    cursor: pointer;
+
+    /* background-size: 200% auto;
+    transition: background-position 0.3s ease; */
+
+}
+
+.button-project-2:hover {
+    font-weight: 600;
+    background: linear-gradient(to right, #AA367C, #4A2FBD);
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(71deg, #080509, #3a3a3abe, #080509); */
+    border-radius: 25px 25px 0 25px;
+}
+
+.card:hover {
+    transition: all 0.4s;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+}
+
+/* .overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #3a3a3abe;
+} */
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #AA367C;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border: 0.5px solid #AA367C; */
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 800;
+    color: #AA367C;
+}
+
+.description {
+    font-size: 1.4rem;
+    color: #f0f0f0;
+    text-align: center;
+    line-height: 1.5;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.button {
+    border: none;
+    font-size: 1.2rem;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4A2FBD;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #265DF2;
+}
+
+.swiper-navBtn {
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+
+/* INTERN CONTENT */
+.heading-intern {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-intern {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* EXCHANGE STUDENT */
+.heading-exchange {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content-exchange {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-exchange {
+    padding: 1rem 5rem;
+}
+
+.card-body-exchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    border: 1px solid #AA367C;
+    border-radius: 1rem;
+    padding: 1rem 1.4rem;
+    gap: 1rem;
+}
+
+.description-exchange {
+    font-size: 1rem;
+    color: #f0f0f0;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 1rem 1rem;
+    font-weight: 300;
 }
 
 /* CERTIFICATIONS */

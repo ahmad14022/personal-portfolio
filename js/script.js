@@ -38,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(type, typingSpeed);
 });
 
+
+ 
+
 // function downloadCV() {
 //   var link = document.createElement('a');
 //   link.href = 'https://drive.google.com/file/d/1shYjU4IJONx8dFU4PbKndOc88Hgq3pTz/view?usp=sharing';

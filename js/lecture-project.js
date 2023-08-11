@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imgUrl: "./images/tk-1.jpg"
         },
         {
-            title: "Dragon Game",
+            title: "Komodo Game",
             tipe: "Artificial Intelligence Project",
             description: `The rules of the game are simple, the player has to jump over the hunter by pressing the "Space Button." However, care must be taken because if the player touches the hunter, the game will end. The game challenges the player to show agility and reflexes in avoiding hunters while trying to score the highest score. By attaching the name "Komodo Game," this game may have interesting elements related to Indonesia's iconic animals, and can be an exciting entertainment for the players.`,
             url: "Let's play 🎮",
@@ -35,18 +35,18 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Maze Games",
             tipe: "Basic Programming Project",
-            description: "This project comes from my big assignment in semester 2 using the C programming language. In this game the user can play and find treasure marked '*' and user marked 'X'. How to play is enough to move the direction up, right, left and down using the number that has been entered so that the user can find where the treasure is.",
+            description: "This project comes from big assignment in semester 2 using the C programming language. In this game the user can play and find treasure marked '*' and user marked 'X'. How to play is enough to move the direction up, right, left and down using the number that has been entered so that the user can find where the treasure is.",
             url: "Let's play 🎮",
             anchor: "https://replit.com/@AhmadMushawwir/Maze-Games#main.c",
-            imgUrl: "./images/c1.png"
+            imgUrl: "./images/bp-1.1.png"
         },
         {
             title: "Patient Room Selection",
             tipe: "Basic Programming Project",
-            description: "This project comes from my big assignment in semester 1 using the C programming language. This program can input patient rooms and choose the desired room. The room will automatically not be displayed when there are patients in it and the room, etc.",
+            description: "This project comes from big assignment in semester 1 using the C programming language. This program can input patient rooms and choose the desired room. The room will automatically not be displayed when there are patients in it and the room, etc.",
             url: "Let's play 🎮",
             anchor: "https://replit.com/@AhmadMushawwir/Pemilihan-Kamar-Pasien#main.c",
-            imgUrl: "./images/c.png"
+            imgUrl: "./images/bp-2.1.png"
         }
     ];
 
@@ -60,22 +60,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const cardContent = `
                 <div class="card-card-project">
-                <div class="card-content-project">
-                <img class="card-img-top" src="${project.imgUrl}" alt="Project Image" style="width: 300px; height: 200px;">
-                <div class="card-body">
-                    <span class="span-project">${project.tipe}</span>
-                    <h5 class="card-title">${project.title}</h5>
-                    <p class="card-text">${project.description}</p>
-                    <a class="button-project" href="${project.anchor}" class="btn btn-primary">${project.url}</a>
-                </div>
-                </div>
+                    <div class="card-content-project">
+                        <img class="card-img-top" src="${project.imgUrl}" alt="Project Image" style="width: 300px; height: 200px;">
+                        <div class="card-body">
+                            <span class="span-project">${project.tipe}</span>
+                            <h5 class="card-title">${project.title}</h5>
+                            <p class="card-text">${project.description}</p>
+                            <a class="button-project" href="${project.anchor}" class="btn btn-primary">${project.url}</a>
+                        </div>
+                    </div>
                 </div>
             `;
-
             card.innerHTML = cardContent;
             projectContainer.appendChild(card);
         });
     }
-
     generateProjectCards();
 });

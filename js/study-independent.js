@@ -84,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
             `;
-
             card.innerHTML = cardContent;
             projectContainer.appendChild(card);
         });

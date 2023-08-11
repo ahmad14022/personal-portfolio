@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Omnifood Project",
             tipe: "Website Project",
-            description: "I created this modification project from an online Udemy course using HTML5 and CSS3 markup languages with reusable classes. Then, I modified it by adding JavaScript programming language to create a dark-light mode feature. In addition, I added animations and used CSS variables in the CSS file. I successfully completed this project within a week timeframe.",
+            description: "This is modification project from an online Udemy course using HTML5 and CSS3 markup languages with reusable classes. Then, student modified it by adding JavaScript programming language to create a dark-light mode feature. In addition, student added animations and used CSS variables in the CSS file. Student successfully completed this project within a week timeframe.",
             url: "Check it out 👉",
             anchor: "https://omnifood-with-darklight-mode.netlify.app/",
             imgUrl: "./images/project-img1.1.png"
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Form Inventaris Obat",
             tipe: "Website Project",
-            description: "This project is a CRUD project whose basic idea is from the Object Oriented Programming course using the Java language. However, in this project I changed it to HTML, CSS, Bootstrap5, and JS. I modified it by making interesting UI and interactions and the input data can be downloaded in excel form.",
+            description: "This project is a CRUD project whose basic idea is from the Object Oriented Programming course using the Java language. However, in this project student changed it to HTML, CSS, Bootstrap5, and JS. Student modified it by making interesting UI and interactions and the input data can be downloaded in excel form.",
             url: "Check it out 👉",
             anchor: "https://inventaris-obat.netlify.app/",
             imgUrl: "./images/project-img.1.2.png"
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Pijar Travelling",
             tipe: "Website Project",
-            description: "This project is made using HTML5, CSS3, and JavaScript (Projects using ReactJS can be seen on my github). This project already uses the API to display the province and uses the flatpickr.js library to display the date on the website.",
+            description: "This project is made using HTML5, CSS3, and JavaScript (Projects using ReactJS can be seen on https://github.com/ahmad14022/pijar-travelling). This project already uses the API to display the province and uses the flatpickr.js library to display the date on the website.",
             url: "Check it out 👉",
             anchor: "https://pijar-travelling.netlify.app/",
             imgUrl: "./images/project-img1.3.png"
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Furniture Store",
             tipe: "Website Project",
-            description: "This project comes from my bootcamp on the front end. This project uses HTML5, CSS3, and JavaScript. This project displays data via API and users can interact by adding and removing items and adding items to the shopping cart. Where the items entered will be stored in local storage.",
+            description: "This project comes from student bootcamp on the front end. This project uses HTML5, CSS3, and JavaScript. This project displays data via API and users can interact by adding and removing items and adding items to the shopping cart. Where the items entered will be stored in local storage.",
             url: "Check it out 👉",
             anchor: "https://furniture-marketplace.netlify.app/",
             imgUrl: "./images/project-img1.5.png"
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: "Pivot Table, Dashboard, etc of Sales Data",
             tipe: "Data Analysis Project",
-            description: "I made this project through an assignment I did from Microsoft about Data Analyst using Excel. This project taught me to make pivot tables, pivot charts, dashboards, hierarchical charts, etc. to help companies achieve their goals based on data owned by the company within a certain period of time.",
+            description: "Student made this project through an assignment student did from Microsoft about Data Analyst using Excel. This project taught student to make pivot tables, pivot charts, dashboards, hierarchical charts, etc. to help companies achieve their goals based on data owned by the company within a certain period of time.",
             url: "Check it out 👉",
             anchor: "https://github.com/ahmad14022/sales-data-1/blob/main/README.md",
             imgUrl: "./images/project-img1.6.png"

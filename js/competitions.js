@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "During the period from 27 September to 10 October 2022, the Scientific Writing Competition (LKTI) which was held online organized by the Muhammadiyah-Aisyiyah Higher Education Informatics Study Program Association (PTMA) achieved extraordinary achievements by winning a bronze medal in the field of Informatics.",
             url: "Check it out 👉",
             imgUrl: "./images/competition-2.png",
-            creatorImgs: ["./images/creator-silat-1.png", "./images/creator-LKTI-2.png", "./images/creator-LKTI-3.png"],
+            creatorImgs: ["./images/creator-LKTI-1.png", "./images/creator-LKTI-2.png", "./images/creator-LKTI-3.png"],
             creatorName: ["Ahmad", " Ghania", " and Safira - IT Student '21"]
         },
         {

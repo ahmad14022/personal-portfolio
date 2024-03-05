@@ -64,7 +64,7 @@ button {
 
 /* REUSABLE CLASS */
 .heading {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
@@ -85,7 +85,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem 3rem 1.5rem 3rem; */
+    padding: 1rem 3rem 1.5rem 3rem;
 }
 
 /*NAVBRAR*/
@@ -279,11 +279,11 @@ span.navbar-text {
 
 
 .banner-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .banner-description {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -312,6 +312,7 @@ span.navbar-text {
     border: 0.1rem solid #FFF;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
+    font-size: 1.2rem;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
@@ -576,7 +577,7 @@ span.navbar-text {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .card-card-project {
@@ -630,7 +631,7 @@ span.navbar-text {
 }
 
 .card-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -669,12 +670,12 @@ span.navbar-text {
     text-align: right;
     font-weight: 300;
     border: 1px solid #FFF;
-    padding: 0.4rem 0.6rem;
+    padding: 0.6rem 0.8rem;
     border-radius: 50px;
     color: #FFF;
     align-self: flex-end;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .button-project:hover {
@@ -726,11 +727,10 @@ span.navbar-text {
     padding: 5rem 1rem;
 }
 
-
 .slide-container {
     max-width: 1120px;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .slide-content {
@@ -747,16 +747,16 @@ span.navbar-text {
 
 .button-project-2 {
     text-align: right;
-    font-size: 1.4rem;
+    font-size: 1.rem;
     font-weight: 300;
     border: 1px solid #FFF;
-    padding: 0.6rem 9rem;
+    padding: 0.6rem 0.9rem;
     margin: 1rem;
     border-radius: 50px;
     color: #FFF;
-    align-self: center;
+    text-align: center;
     cursor: pointer;
-
+    width: 100%;
     /* background-size: 200% auto;
     transition: background-position 0.3s ease; */
 
@@ -834,7 +834,7 @@ span.navbar-text {
 }
 
 .description {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #f0f0f0;
     text-align: center;
     line-height: 1.5;
